@@ -7,7 +7,7 @@ let best;
 
 try {
     best= JSON.parse(localStorage.getItem('best'));
-    if(typeof best.best === "number"){
+    if(typeof best.best == "number"){
     
         points.best= best.best;
         document.getElementById("best").textContent= points.best;
