@@ -10,6 +10,7 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    overscroll-behavior: contain;
 }
 
 div.points-Box{
