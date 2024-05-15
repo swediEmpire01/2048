@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048! GaME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/2048-logo-new.svg" type="image/x-icon">
+</head>
+<body> 
+    <div class="points-Box">
+        <div id="game-name">
+            <h1>2048</h1>
+        </div>
+        <div class="points">
+                <h2>SCORE </h2>
+                <h3 id="score">0</h3>
+        </div>
+        <div class="points">
+                <h2>BEST </h2>
+                <h3 id="best">0</h3>
+        </div>
+    </div>
+    <div class="container" >
+        <div class="box-rows" id="rowOne">
+            <div class="box" id="box-one"></div>
+            <div class="box" id="box-two"></div>
+            <div class="box" id="box-three"></div>
+            <div class="box" id="box-four"></div>
+        </div>
+        <div class="box-rows" id="rowTwoi">
+            <div class="box" id="box-five"></div>
+            <div class="box" id="box-six"></div>
+            <div class="box" id="box-seven"></div>
+            <div class="box" id="box-eight"></div>
+        </div>
+        <div class="box-rows" id="rowThree">
+            <div class="box" id="box-nine"></div>
+            <div class="box" id="box-ten"></div>
+            <div class="box" id="box-elev"></div>
+            <div class="box" id="box-twelv"></div>
+        </div>
+        <div class="box-rows" id="rowFour">
+            <div class="box" id="box-thirt"></div>
+            <div class="box" id="box-fourt"></div>
+            <div class="box" id="box-fifth"></div>
+            <div class="box" id="box-sixt"></div>
+        </div>
+    </div>
+    
+    <div class="vertical">
+        <div class="directions" >
+            <img src="/assets/direction.svg" alt="direction-up" id="up" >
+        </div>
+        <div class="horizontal">   
+            <div class="directions" >
+                <img src="/assets/direction.svg" alt="direction-left"  id="left">
+            </div>
+            <div class="directions" >
+                <img src="/assets/direction.svg" alt="direction-right"id="right" >
+            </div>
+        </div>
+        <div class="directions" >
+            <img src="/assets/direction.svg" alt="direction-down"  id="down">
+        </div>
+        <div id="altercations"></div>
+    </div>
+</body>
+</html>
+<script type="module"  src="./main.js"></script>

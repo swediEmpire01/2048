@@ -1,0 +1,141 @@
+*body{
+    font-family:  Arial,"fontyOne",'Arial Narrow','Franklin Gothic Medium', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div.points-Box{
+    display: flex;
+    align-items: center;
+}
+div.points-Box div{
+    display: flex;
+    padding: 5px;
+}/* 
+div#game-name{
+
+} */
+div.points{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 5px 5px;
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    background-color: #bbad9f;
+    color: #ffffff;
+}
+h1{
+    font-size: 3em;
+    margin: 0px 45px;
+    height: auto;
+    font-weight: 100;
+    font-family: fantasy;
+}
+h2{
+    font-size: 0.6em;
+    margin: 0px ;
+    height: auto;
+    font-weight: 100;
+}
+h3{
+    margin: 0px;
+    height: auto;
+}
+
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #bbad9f;
+    padding: 5px;
+    cursor: pointer;
+    width: 374px;
+    height: 374px;
+}
+
+div.box-rows{
+    display: flex;
+}
+
+div.box{
+    width: 75px;
+    height: 75px;
+    padding: 3px;
+    background-color: hsl(32, 20%, 75%) ;
+    border-radius: 2px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 550;
+    transition: 0.1qs;
+}
+
+/* THis is the direction BOx */
+div.vertical{
+    padding: 5px;
+    display: flex;/*  it is hereeeeeeeeeeeeeeeeeee */
+    flex-direction: column;
+    width: 145px;
+    height: 145px;
+    justify-items: center;
+}
+div.horizontal{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.directions{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+img#up{
+    transform: rotate(180deg);
+}
+img#left{
+    transform: rotate(90deg);
+}
+img#right{
+    transform: rotate(270deg);
+}
+
+
+div.directions img{
+    width: 35px;
+    padding: 5px;
+    background-color: #bbad9f;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: "fontOne";
+    src: url("/assets/LEMONMILK-Light.ttf");
+}
+
+@media (max-width: 400px) {
+    
+    div.box{
+        width: 55px;
+        height: 55px;
+        font-size: 1.4em;
+    }
+    div.vertical{
+        display: none;
+    }
+
+    h1{ 
+        font-size: 2em;
+        margin: 0px 24px;
+    }
+}
