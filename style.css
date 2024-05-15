@@ -58,8 +58,8 @@ div.container{
     background-color: #bbad9f;
     padding: 5px;
     cursor: pointer;
-    width: 374px;
-    height: 374px;
+    width: auto;
+    height: auto;
 }
 
 div.box-rows{
